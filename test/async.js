@@ -8,7 +8,8 @@ describe('User', () => {
 
 /**
  * 也可以return promise
- * v3.0.0之前会被忽略，之后同事返回promise和调用done会报错
+ * v3.0.0之前会被忽略，之后同时返回promise和调用done会报错
  * 现在的version是 6.0.2
  * 如果js 环境支持async/await，也可以用async/await
+ * 不能多次调用done
  */
